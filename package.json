@@ -1,0 +1,16 @@
+{
+  "name": "testgraph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.8.1",
+    "graphql": "^16.5.0",
+    "nodemon": "^2.0.16"
+  }
+}

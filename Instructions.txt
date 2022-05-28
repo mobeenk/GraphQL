@@ -1,0 +1,28 @@
+npm init
+
+npm install graphql apollo-server nodemon
+
+
+npm start
+
+
+
+mutation($removeDayId: ID!){
+  removeDay(id: $removeDayId) {
+    day {
+      mountain
+      date
+    }
+  }
+}
+
+
+
+query {
+  allDays {
+    mountain
+    date
+    id
+  }
+
+}
